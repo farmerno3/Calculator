@@ -1,0 +1,105 @@
+
+*
+
+
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+font-family: sans-serif;
+outline: none;
+}
+.container{
+
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+body{
+   background: linear-gradient(to right, #be93c5, #7bc6cc);
+      
+}
+
+
+.Calculator{
+
+background-color:#edf1f4;                      /*calc body*/
+padding: 15px;
+border-radius: 30px;
+box-shadow: inset 5px 5px 12px #f8f8f8,
+                  5px 5px 12px rgba(0,0,0,.16);
+display: grid;
+grid-template-columns: repeat(4, 68px);
+}
+input{
+grid-column: span 4;
+height: 70px;
+width: 260px;
+background-color: #edf1f4;                      /* display bg*/
+box-shadow: inset -5px -5px 12px #f8f8f8,    /*display shadow*/
+             inset 5px  5px 12px rgba(0,0,0,.16);
+
+border: none;
+border-radius : 30px;
+color: rgba (70, 70, 70);
+font-size: 50px;
+text-align: end;
+margin: auto;
+margin-top: 40px;
+margin-bottom: 30px;
+padding: 20px;
+}
+
+button{
+font-weight: bold;
+   font-size: 21px;
+   height: 48px;
+ width: 48px;
+ background-color:#edf1f4;              /*#e6e6e6;  buttons body*/
+ color:#928688; /* #1d9bf0;*/
+box-shadow: inset 0px 0px 1px #f8f8f8,         /*buttons shadow*/
+                    0px  0px 9px rgba(0,0,0,.16);
+ border: none;
+ border-radius: 50%;
+ margin: 8px;
+
+
+  
+}
+button:hover {
+  cursor:pointer;
+  border-radius: 50%;
+  background-color:  #c1b6b4;     /*#6FC1E8; */
+  color:white;
+  box-shadow: inset  -5px -5px 12px #ff892f,
+                      5px  5px 12px rgba(255,137,47,.1.6);				
+   
+   
+}
+
+
+
+
+ .equal{
+ font-size: 39px;
+  font-weight: bold;
+  width: 115px;
+  border-radius: 40px;
+  background-color:   #48bf91;/* #fa343d;           #fa343d;*/
+  color: white;
+  box-shadow: inset 0px 0px 1px #f8f8f8, 
+                      0px  0px 9px rgba(0,0,0,.16);
+ }
+ .equal:hover{
+  font-weight: bold;
+  border-radius: 40px;
+  background-color: #edf1f4;
+  color:#48bf91;
+ box-shadow: inset  -5px -5px 12px #ff892f,
+                      5px  5px 12px rgba(255,137,47,.1.6);
+
+ }
+
